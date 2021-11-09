@@ -1,0 +1,23 @@
+.inputs {
+  display: flex;
+  gap: 24px;
+}
+
+.currencyInput {
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+
+  & > label,
+  & > input {
+    font-size: 36px;
+  }
+  & > label {
+    font-weight: 700;
+  }
+
+  & > input {
+    width: 200px;
+  }
+}
